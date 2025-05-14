@@ -1,0 +1,97 @@
+/* 
+=========================
+ESTILOS GENERALES 
+=========================
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.text-primary-custom {
+    color: #28a745 !important;
+}
+
+.bg-primary-custom {
+    background-color: #28a745 !important;
+}
+
+.bg-secondary-custom {
+    background-color: #343a40 !important;
+}
+
+.btn-primary-custom {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: white;
+}
+
+.btn-accent {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    color: white;
+}
+
+.btn-accent:hover {
+    background-color: #e96c0e;
+    border-color: #d9630c;
+    color: white;
+}
+
+/* 
+=========================
+HERO SECTION
+=========================
+*/
+.hero {
+    background-color: rgba(0, 0, 0, 0.7); /* Color oscuro en lugar de gradient */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 0;
+    margin-top: 76px; /* Espacio para la navbar fija */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* 
+=========================
+FOOTER 
+=========================
+*/
+.pie-pagina {
+    background-color: #343a40;
+    color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.enlace-footer:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 0;
+        margin-top: 56px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
